@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="theme switch.css" />
+  </head>
+  <body>
+    <div class="whole-container">
+      <h1>Theme Switch</h1>
+
+      <h5>current mode is <span id="mode-display">light</span></h5>
+
+      <div class="timer"></div>
+
+      <label class="theme-switch">
+        <input type="checkbox" class="theme-checkbox" />
+        <div class="theme-container">
+          <div class="theme-clouds">
+            <div class="layer-1"></div>
+            <div class="layer-2"></div>
+          </div>
+          <div class="theme-circle-container">
+            <div class="moon-spots">
+              <div class="spot1"></div>
+              <div class="spot2"></div>
+              <div class="spot3"></div>
+            </div>
+          </div>
+          <div class="theme-stars"></div>
+        </div>
+      </label>
+
+      <div class="quote">
+        <p id="quote-text"></p>
+        <u><p id="quote-author"></p></u>
+      </div>
+    </div>
+    <script src="theme switch.js"></script>
+  </body>
+</html>
